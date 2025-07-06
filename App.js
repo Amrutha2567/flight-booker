@@ -1,9 +1,9 @@
 import React from 'react';
-import FlightBooker from './components/FlightBooker';
+import FlightBooker from './FlightBooker';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div>
       <FlightBooker />
     </div>
   );
